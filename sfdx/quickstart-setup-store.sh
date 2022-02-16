@@ -261,8 +261,3 @@ echo "Creating search index."
 sfdx 1commerce:search:start -n "$communityNetworkName"
 
 echo "QUICK START COMPLETE!"
-
-sfdx force:user:password:generate -o ${buyerusername}
-echo "Use this buyer user to log in to the store:"
-sfdx force:user:display -u ${buyerusername}
-
